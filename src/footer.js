@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './footer.css';
 
 var i=0
 var j=0
@@ -17,7 +17,7 @@ function Footer() {
         } else {
             setNome("mattia")
         };
-         
+
         setCont(i=i+1);
         j=j+1
 

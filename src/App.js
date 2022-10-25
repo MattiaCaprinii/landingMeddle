@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './img/logo/logo.svg';
 import './App.css';
 import FooTer from './footer'
 import ImgContainer from './imgIntercambiabili'

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './imgContainer.css';
-import img1 from './prova1.jpeg'
-import img2 from './prova2.webp'
+import img1 from './img/intercambiabili/prova1.jpeg'
+import img2 from './img/intercambiabili/prova2.webp'
 
 
 function Img3() {

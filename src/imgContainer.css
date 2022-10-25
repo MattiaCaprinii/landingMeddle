@@ -1,0 +1,17 @@
+.contenitoreImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.cambioImg{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}

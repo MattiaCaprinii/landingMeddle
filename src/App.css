@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body{
+  background-color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,23 +13,27 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
+  }
+
+  .App-link{
+    animation: App-link-spin infinite 1s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: azure;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: inherit;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
@@ -33,6 +41,74 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(10000deg);
   }
+}
+
+@keyframes App-link-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(9000deg);
+  }
+}
+
+.App-footer {
+  background-color: azure;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+
+.footer-txt1{
+
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.footer-testo{
+background-color: pink;
+display: flex;
+align-items: center;
+justify-content: center;
+height: auto;
+width: 100%;
+
+}
+
+.footer-txt2{
+background-color: burlywood;
+display: flex;
+align-items: center;
+justify-content: center;
+height: auto;
+width: 100%;
+
+}
+
+.img-prova{
+  height: 100%;
+  width: 100%;
+}
+
+.txt-footer{
+  padding: 50px;
+  background-color: burlywood
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+.imgggg{
+  height: 100%;
+  width: 100%;
 }
